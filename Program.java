@@ -3,7 +3,7 @@ package compositePattern;
 public class Program {
 public static void main(String args[]) {
 		
-		// Make new empty "Study" playlist 
+	// Make new empty "Study" playlist 
 		Playlist studyPlaylist = new Playlist("Study");		
 
 		// Make "Synth Pop" playlist and add 2 songs to it.
@@ -50,5 +50,5 @@ public static void main(String args[]) {
 
 		// Get the playlist name of studyPlaylist → "Study"
 		System.out.println ("The Playlist's name is " + studyPlaylist.getName() );
-		}
+	}
 }

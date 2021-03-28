@@ -11,7 +11,7 @@ public class Song implements IComponent {
 		this.artist = artist; 
 	}
 
-	public String getSongName() {
+	public String getName() {
 		return songName;
 	}
 
@@ -37,20 +37,12 @@ public class Song implements IComponent {
 
 	@Override
 	public void play() {
-		// TODO Auto-generated method stub
-
+		System.out.println("Song playing " + songName + "....");
 	}
 
 	@Override
 	public void setPlaybackSpeed(float speed) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
+		this.speed = speed;
 	}
 
 }
